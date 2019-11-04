@@ -5,6 +5,9 @@ conda_env: conda.yaml
 entry_points:
   main:
     parameters:
-      alpha: {type: float, default: 0.5}
-      l1_ratio: {type: float, default: 0.1}
-    command: "python train.py {alpha} {l1_ratio}"
+      n_estimators: {type: int, default: 700}
+      max_depth: {type: int, default: 5}
+      min_samples_split: {type: int, default: 3}
+      learning_rate: {type: float, default: 0.01}
+      loss: {type: string, default: 'ls'}
+    command: "python trainGBM.py {n_estimators} {max_depth} {min_samples_split} {learning_rate} {loss}"
