@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/konstantinbalyshev/PycharmProjects/helloMLFlow/quickstart_MLFlow/mlruns/0/405240cd00494bf8a2dc402b167bfe23/artifacts
+end_time: 1572891830754
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 405240cd00494bf8a2dc402b167bfe23
+run_uuid: 405240cd00494bf8a2dc402b167bfe23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1572891829262
+status: 3
+tags: []
+user_id: konstantinbalyshev
